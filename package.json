@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "scripts": {
+    "build": "tsc typescript/index.ts"
+  }
+}
