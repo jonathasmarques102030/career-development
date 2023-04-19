@@ -1,0 +1,193 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FF2700;
+    border-radius: 30px;
+}
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 0;
+}
+
+main {
+    margin: 0;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    border-top: 8px #FF2700 solid;
+    height: 50px;
+    margin: 0px;
+    padding: 10px;
+    bottom: 0;
+}
+
+.header-inicial {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-inicial ul li {
+    padding-left: 30px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 3vh;
+    display: inline;
+}
+
+.header-inicial ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: .5em;
+    color: #111820;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: .5em;
+    color: #111820;
+    border-bottom: #FF2700 5px solid;
+    transition-property: border-bottom, color;
+    transition-duration: 0.2s;
+}
+
+.header-inicial button {
+    color: #fff;
+    background-color: #FF2700;
+    border-radius: 15px;
+    box-shadow: 0px 10.0979px 10.0979px rgba(255, 39, 0, 0.2);
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    width: 18%;
+    padding: 10px 0px;
+    transition: all 1s;
+}
+
+.header-inicial button:hover {
+    width: 25%;
+    transition: all 0.5s;
+}
+
+.content {
+    margin: 0;
+}
+
+.main-superior {
+    margin: 0;
+    display: flex;
+    background-image: url("./assets/fundo.svg");
+    background-size: 800px;
+}
+
+.content .main-superior {
+    display: flex;
+    font-size: 1.3rem;
+}
+
+.div-inicio {
+    display: block;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.div-meio img {
+    margin: auto;
+    width: 400px;
+    margin-left: auto;
+    padding: 16px 0px;
+}
+
+.inicio {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+    display: flex;
+}
+
+.first-division {
+    display: flex;
+    width: 350px;
+}
+
+.second-division {
+    display: flex;
+    align-items: center;
+}
+
+.second-division h3 {
+    font-size: 1.2rem;
+    color: #FF2700;
+    margin: 5px;
+}
+
+.meio {
+    width: 61.47px;
+    height: 61.47px;
+    left: 916.39px;
+    background: #111820;
+    box-shadow: 0px 252.449px 201.959px rgba(34, 212, 151, 0.07), 0px 163.624px 118.277px rgba(34, 212, 151, 0.0531481), 0px 97.2395px 64.3277px rgba(34, 212, 151, 0.0425185), 0px 50.4897px 32.8183px rgba(34, 212, 151, 0.035), 0px 20.5699px 16.4559px rgba(34, 212, 151, 0.0274815), 0px 4.67498px 7.94746px rgba(34, 212, 151, 0.0168519);
+    border-radius: 118.651px;
+}
+
+.div-inicio h1 {
+    color: #FF2700;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.div-inicio h2 {
+    color: #111820;
+    letter-spacing: -0.02em;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.inicio button#primeiro {
+    color: #fff;
+    background-color: #FF2700;
+    border-radius: 6px;
+    box-shadow: 0px 10.0979px 10.0979px rgba(255, 39, 0, 0.2);
+    cursor: pointer;
+    font-weight: 400;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    width: 45%;
+    padding: 16px 0px;
+    margin: 25px;
+}
+
+.div-inicio a#segundo {
+    cursor: pointer;
+    width: 15px;
+    font-style: normal;
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+    color: #FF2700;
+}
+
+
+.inicio-footer {
+    margin: 10px;
+}
+
+
