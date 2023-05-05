@@ -1,0 +1,21 @@
+.nav{
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+}
+
+.itemList{
+  list-style: none;
+  cursor: pointer;
+  background-color: var(--pokemon-red);
+  border: 3px solid var(--black);
+  border-radius: 0.2rem;
+  margin: 0.3rem;
+  color: var(--black);
+  text-indent: 1rem;
+  text-align: justify;
+}
+.itemList:hover{
+  background-color: var(--pokemon-blue);
+  color: var(--white);
+}

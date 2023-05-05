@@ -1,0 +1,123 @@
+.description{
+  height: 50vh;
+  border-top: 1px solid var(--black);
+  grid-template-areas: 
+    "image"
+    "name"
+    "type"
+    "status";
+  grid-template-rows: 1fr 20% 20% 40%;
+}
+
+.image{
+  width: 18vw;
+}
+.divImage{
+  grid-area: image;
+  text-align: center;
+  background-color: var(--white);
+  margin: 0.3rem;
+}
+.name{
+  grid-area: name;
+  color: var(--pokemon-blue);
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.type{
+  grid-area: type;
+  background-color: var(--pokemon-blue);
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  margin: 1rem;
+}
+.divType{
+  text-align: center;
+}
+
+.status{
+  margin: auto;
+  -webkit-appearance: none;
+  position: relative;
+  overflow: hidden;
+  height: 1rem;
+  width: 60%;
+  border-radius: 0; /* iOS */
+}
+::-webkit-slider-runnable-track {
+  background: var(--pokemon-red);
+}
+::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 0;
+  height: 1rem;
+  box-shadow: -12.5rem 0 0 12.5rem var(--pokemon-green);
+  border: 0px; 
+}
+.spanName{
+  width: 8rem;
+}
+.divAlign{
+  display: flex;
+  flex-direction: row;
+}
+.marginStatus{
+  margin: 1rem;
+}
+@media screen and (min-width: 450px){
+  img.image{
+    width: 13vh;
+  }
+}
+
+@media screen and (min-width: 800px){
+  div.description{
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid var(--black);
+    border-top: none;
+  }
+
+  div.divImage{
+    margin: 0.3rem;
+  }
+  img.image{
+    width: 80%;
+  }
+  .status{
+    height: 2rem;
+    width: 70%;
+  }
+  ::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 0;
+    height: 2rem;
+    box-shadow: -40rem 0 0 40rem var(--pokemon-green);
+    border: 0px; 
+  }
+  .divAlign{
+    margin: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 2000px){
+  img.image{
+    width: 80%;
+  }
+  .status{
+    height: 3rem;
+    width: 100%;
+  }
+  ::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 0;
+    height: 3rem;
+    box-shadow: -40rem 0 0 40rem var(--pokemon-green);
+    border: 0px; 
+  }
+  .divAlign{
+    margin: 1.5rem;
+  }
+
+}
